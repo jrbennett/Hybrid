@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+    display: flex;
+    font-family: Helvetica, 'Open Sans', sans-serif;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 2vw;
+    margin-top: 2vh;
+    max-width: 1024px;
+    width: 90%;
+}
+
+h1 {
+   // font-weight: 300;
+    min-width: 175px;
+    margin: 2vh auto 30px auto;
+    text-align: center;
+    width: 30%;
+}
+
+
+.complete {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 2vh 0;
+    width: 100%;
+}
+
+#inputToDo {
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    flex-grow: 9;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding: 0 0 0 1%;
+}
+
+#addToDo {
+    background-color: #418fd3;
+    border: 1px solid #418fd3;
+    border-radius: 2px;
+    color: #fff;
+    flex-grow: 1;
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 2em;
+    margin: 0 0 0 1vw;
+}
+ 
+#addToDo:hover {
+    background-color: dodgerblue;
+}
+
+ul {
+    display: flex;
+    flex-flow: column;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    line-height: 2.9em;
+}
+
+.list_item {
+    align-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+    flex-grow: 60;
+    letter-spacing: .3px;
+    list-style: none;
+}
+
+.high-priority {
+    color: crimson;
+}
+
+nav {
+    margin: 2vh 0;
+/*    width: 110%;*/
+    background-color: #eee;
+    line-height: 2em;
+    
+}
+
+.tab_container {
+    display: flex;
+/*    justify-content: center;*/
+        flex-direction: row;
+/*    align-content: center;*/
+   align-items: center;
+}
+
+.tab {
+/*    align-items: center;*/
+    flex-grow: 1;
+    list-style: none;
+/*    justify-content: center;*/
+/*    align-content: center;*/
+    
+}
+
+.tab a {
+/*    flex-grow: 1;*/
+/*    align-self: center;*/
+        text-decoration: none;
+/*    width: 100%;*/
+    
+
+}
+
+.tab-link {
+    width: 100%;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    flex-grow: 2;
+    transform: scale(1.5);
+}

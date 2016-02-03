@@ -1,0 +1,10 @@
+<h3>Work Tasks</h3>
+<ul>
+    <div class="row" ng-repeat="task in tasks | filter: {category: 'work'}">
+        <input type="checkbox" ng-model="done" ng-click="setfocus()">
+        <li class='list_item' ng-class="{'high-priority': task.priority, complete: done}">
+            {{task.item}}
+        </li>
+       <img src="img/trash-2x.png" class="del_btn" ng-hide="!done" ng-click="delete(task)" />
+    </div>
+</ul>

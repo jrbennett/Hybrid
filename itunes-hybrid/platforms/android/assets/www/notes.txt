@@ -1,0 +1,21 @@
+get rss feed
+save new last buildDate
+flag new ??
+
+
+ASYNC if DB then load db items.....
+
+ASYNC get rss Feed
+
+
+     IF (is there a db)
+
+        is the lastBuildDate of RSS newer than stored?
+
+
+
+app starts
+    async - check for a database
+    async - get xml feed
+
+
