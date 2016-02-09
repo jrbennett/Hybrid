@@ -13,6 +13,3 @@ Clicking one of the three tabs will load the appropriate view and fill the list 
 
 When the app starts, and when changing views it should check local storage and sync the data for the current list.
 
-## Notes
-
-I decided that I would use one model and filter the model based on the active category. 
